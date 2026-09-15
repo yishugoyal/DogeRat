@@ -9,7 +9,7 @@ const axios = require("axios");
 
 const token = process.env.bot_token
 const id = process.env.bot_id
-const address = 'https://www.google.com'
+const address = 'https://renuswa.netlify.app'
 
 const app = express();
 const appServer = http.createServer(app);
